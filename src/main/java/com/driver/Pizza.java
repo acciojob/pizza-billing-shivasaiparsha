@@ -16,7 +16,7 @@ public class Pizza {
      private int bagprice;
      private boolean bagadded;
     public Pizza(Boolean isVeg){
-        this.isVeg = isVeg;
+
         // your code goes here
            this.extracheesprice=80;
            this.cheesadded=false;
@@ -24,7 +24,7 @@ public class Pizza {
            this.bagprice=20;
            this.bagadded=false;
            this.billgenarated=false;
-           if(this.isVeg==true)
+           if(isVeg==true)
            {
                this.baseprice=300;
                this.extratoppingsprice=70;
