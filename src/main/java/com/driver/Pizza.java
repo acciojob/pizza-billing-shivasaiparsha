@@ -72,8 +72,8 @@ public class Pizza {
     public String getBill(){
         // your code goes here
         this.bill="Base Price Of The Pizza: "+this.baseprice+"\n";
-       if(this.billgenarated==false)
-       {
+//       if(this.billgenarated==false)
+//       {
            if (this.cheesadded == true) {
                this.bill = this.bill+"Extra Cheese Added: " + this.extracheesprice + "\n";
            }
@@ -89,7 +89,7 @@ public class Pizza {
             this.bill =this.bill+ "Total Price: "+this.price+"\n";
           this. billgenarated=true;
            return this.bill;
-       }
-        return null;
+
+
     }
 }
